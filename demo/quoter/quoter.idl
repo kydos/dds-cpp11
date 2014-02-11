@@ -1,0 +1,11 @@
+module demo {
+  struct StockQuote {
+    string  stock; 
+    string  xchange; 
+    float   value; 
+    long    trade_volume;
+  };
+#pragma keylist StockQuote stock
+};
+
+

@@ -29,7 +29,7 @@ MACRO (OpenSplice_IDLGEN idlfilename)
 	ADD_CUSTOM_COMMAND (
 		OUTPUT ${outsources}
 		COMMAND ${OpenSplice_IDLGEN_BINARY}
-		ARGS  -l isoc++ -d gen ${idlfilename}
+		ARGS  -l isocpp -d gen ${idlfilename}
 		DEPENDS ${it}
 	)
 ENDMACRO (OpenSplice_IDLGEN)
